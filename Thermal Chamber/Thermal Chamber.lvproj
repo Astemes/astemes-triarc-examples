@@ -18,7 +18,7 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 			</Item>
-			<Item Name="DUT Tester.vi" Type="VI" URL="../Testers/DUT Tester.vi">
+			<Item Name="Device Under Test Tester.vi" Type="VI" URL="../Testers/Device Under Test Tester.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 			<Item Name="Thermal Chamber Controller Tester.vi" Type="VI" URL="../Testers/Thermal Chamber Controller Tester.vi">
@@ -34,6 +34,15 @@
 			<Item Name="Device Under Test Test.lvclass" Type="LVClass" URL="../Device Under Test Test/Device Under Test Test.lvclass"/>
 			<Item Name="Thermal Chamber Controller Test.lvclass" Type="LVClass" URL="../Thermal Chamber Controller Test/Thermal Chamber Controller Test.lvclass"/>
 			<Item Name="Thermal Chamber Response Simlator Test.lvclass" Type="LVClass" URL="../Thermal Chamber Response Simlator Test/Thermal Chamber Response Simlator Test.lvclass"/>
+		</Item>
+		<Item Name="Thermal Chamber Controller.vi" Type="VI" URL="../Thermal Chamber Controller.vi">
+			<Property Name="marked" Type="Int">0</Property>
+		</Item>
+		<Item Name="Thermal Chamber Controller with DUT.vi" Type="VI" URL="../Thermal Chamber Controller with DUT.vi">
+			<Property Name="marked" Type="Int">0</Property>
+		</Item>
+		<Item Name="Thermal Chamber Controller with Multiple DUT.vi" Type="VI" URL="../Thermal Chamber Controller with Multiple DUT.vi">
+			<Property Name="marked" Type="Int">0</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
