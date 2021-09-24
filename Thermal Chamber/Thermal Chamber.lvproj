@@ -24,9 +24,14 @@
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Device Under Test.lvclass" Type="LVClass" URL="../Device Under Test/Device Under Test.lvclass"/>
+			<Item Name="Thermal Chamber Controller.lvclass" Type="LVClass" URL="../Thermal Chamber Controller/Thermal Chamber Controller.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Device Under Test Test.lvclass" Type="LVClass" URL="../Device Under Test Test/Device Under Test Test.lvclass"/>
+			<Item Name="Thermal Chamber Controller Test.lvclass" Type="LVClass" URL="../Thermal Chamber Controller Test/Thermal Chamber Controller Test.lvclass"/>
+		</Item>
+		<Item Name="Heater State.ctl" Type="VI" URL="../Thermal Chamber Controller/Private/Heater State.ctl">
+			<Property Name="marked" Type="Int">0</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
