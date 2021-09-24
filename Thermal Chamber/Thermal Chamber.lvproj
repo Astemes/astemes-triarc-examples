@@ -21,6 +21,9 @@
 			<Item Name="DUT Tester.vi" Type="VI" URL="../Testers/DUT Tester.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
+			<Item Name="Thermal Chamber Controller Tester.vi" Type="VI" URL="../Testers/Thermal Chamber Controller Tester.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Device Under Test.lvclass" Type="LVClass" URL="../Device Under Test/Device Under Test.lvclass"/>
