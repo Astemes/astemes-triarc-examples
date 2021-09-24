@@ -93,6 +93,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
 	</Item>
+	<Item Name="Test TCRS Update Ramp Rate While Running.vi" Type="VI" URL="../Test TCRS Update Ramp Rate While Running.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!':!=!!?!!!Q,F2I:8*N97QA1WBB&lt;7*F=C"3:8.Q&lt;WZT:3"4;7VM982P=C"5:8.U,GRW9WRB=X-!!#J5;'6S&lt;7&amp;M)%.I97VC:8)A5G6T='^O=W5A5WFN&lt;'&amp;U&lt;X)A6'6T&gt;#"0&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!:%"Q!"Y!!$!O6'BF=GVB&lt;#"$;'&amp;N9G6S)&amp;*F=X"P&lt;H.F)&amp;.J&lt;7RB&gt;'^S)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!+62I:8*N97QA1WBB&lt;7*F=C"3:8.Q&lt;WZT:3"4;7VM982P=C"5:8.U)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+	</Item>
 	<Item Name="Test TCRS Update Setpoint.vi" Type="VI" URL="../Test TCRS Update Setpoint.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!':!=!!?!!!Q,F2I:8*N97QA1WBB&lt;7*F=C"3:8.Q&lt;WZT:3"4;7VM982P=C"5:8.U,GRW9WRB=X-!!#J5;'6S&lt;7&amp;M)%.I97VC:8)A5G6T='^O=W5A5WFN&lt;'&amp;U&lt;X)A6'6T&gt;#"0&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!:%"Q!"Y!!$!O6'BF=GVB&lt;#"$;'&amp;N9G6S)&amp;*F=X"P&lt;H.F)&amp;.J&lt;7RB&gt;'^S)&amp;2F=X1O&lt;(:D&lt;'&amp;T=Q!!+62I:8*N97QA1WBB&lt;7*F=C"3:8.Q&lt;WZT:3"4;7VM982P=C"5:8.U)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
