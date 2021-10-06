@@ -14,10 +14,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Support Classes" Type="Folder">
 			<Item Name="Utilities" Type="Folder">
-				<Item Name="Random Name Generator.vi" Type="VI" URL="../Support/Utilities/Random Name Generator.vi">
+				<Item Name="Random Name Generator.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Random Name Generator.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="Localization.vi" Type="VI" URL="../Support/Entity Table/Localization.vi">
+				<Item Name="Localization.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Localization.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="Names.txt" Type="Document" URL="../Support/Utilities/Names.txt"/>
