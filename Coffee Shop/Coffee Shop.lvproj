@@ -12,20 +12,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Support Classes" Type="Folder">
-			<Item Name="Utilities" Type="Folder">
-				<Item Name="Random Name Generator.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Random Name Generator.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Localization.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Localization.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Names.txt" Type="Document" URL="../Support/Utilities/Names.txt"/>
-			</Item>
-			<Item Name="Order Item.lvclass" Type="LVClass" URL="../Support/Order/Order Item.lvclass"/>
-			<Item Name="Order.lvclass" Type="LVClass" URL="../Support/Order/Order.lvclass"/>
-			<Item Name="Beverage.lvclass" Type="LVClass" URL="../Support/Beverages/Beverage/Beverage.lvclass"/>
-		</Item>
 		<Item Name="Processes" Type="Folder">
 			<Item Name="People" Type="Folder">
 				<Item Name="Customers" Type="Folder">
@@ -34,8 +20,23 @@
 				</Item>
 				<Item Name="Workers" Type="Folder">
 					<Item Name="Worker.lvclass" Type="LVClass" URL="../Worker/Worker.lvclass"/>
+					<Item Name="Process Job.lvclass" Type="LVClass" URL="../Process Job/Process Job.lvclass"/>
 				</Item>
 				<Item Name="Person.lvclass" Type="LVClass" URL="../Person/Person.lvclass"/>
+			</Item>
+			<Item Name="Support Classes" Type="Folder">
+				<Item Name="Utilities" Type="Folder">
+					<Item Name="Random Name Generator.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Random Name Generator.vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
+					<Item Name="Localization.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Localization.vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
+					<Item Name="Names.txt" Type="Document" URL="../Support/Utilities/Names.txt"/>
+				</Item>
+				<Item Name="Order Item.lvclass" Type="LVClass" URL="../Support/Order/Order Item.lvclass"/>
+				<Item Name="Order.lvclass" Type="LVClass" URL="../Support/Order/Order.lvclass"/>
+				<Item Name="Beverage.lvclass" Type="LVClass" URL="../Support/Beverages/Beverage/Beverage.lvclass"/>
 			</Item>
 			<Item Name="Work Dispatcher.lvclass" Type="LVClass" URL="../Work Dispatcher/Work Dispatcher.lvclass"/>
 			<Item Name="Coffee Shop.lvclass" Type="LVClass" URL="../Coffee Shop/Coffee Shop.lvclass"/>
@@ -46,6 +47,7 @@
 			<Item Name="Customer Test.lvclass" Type="LVClass" URL="../Customer Test/Customer Test.lvclass"/>
 			<Item Name="Coffee Shop Test.lvclass" Type="LVClass" URL="../Coffee Shop Test/Coffee Shop Test.lvclass"/>
 			<Item Name="Worker Test.lvclass" Type="LVClass" URL="../Worker Test/Worker Test.lvclass"/>
+			<Item Name="Mock Worker.lvclass" Type="LVClass" URL="../Mock Worker/Mock Worker.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
