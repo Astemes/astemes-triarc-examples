@@ -21,25 +21,26 @@
 				<Item Name="Workers" Type="Folder">
 					<Item Name="Worker.lvclass" Type="LVClass" URL="../Worker/Worker.lvclass"/>
 					<Item Name="Process Job.lvclass" Type="LVClass" URL="../Process Job/Process Job.lvclass"/>
+					<Item Name="Cashier.lvclass" Type="LVClass" URL="../Cashier/Cashier.lvclass"/>
 				</Item>
 				<Item Name="Person.lvclass" Type="LVClass" URL="../Person/Person.lvclass"/>
 			</Item>
-			<Item Name="Support Classes" Type="Folder">
-				<Item Name="Utilities" Type="Folder">
-					<Item Name="Random Name Generator.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Random Name Generator.vi">
-						<Property Name="marked" Type="Int">0</Property>
-					</Item>
-					<Item Name="Localization.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Localization.vi">
-						<Property Name="marked" Type="Int">0</Property>
-					</Item>
-					<Item Name="Names.txt" Type="Document" URL="../Support/Utilities/Names.txt"/>
-				</Item>
-				<Item Name="Order Item.lvclass" Type="LVClass" URL="../Support/Order/Order Item.lvclass"/>
-				<Item Name="Order.lvclass" Type="LVClass" URL="../Support/Order/Order.lvclass"/>
-				<Item Name="Beverage.lvclass" Type="LVClass" URL="../Support/Beverages/Beverage/Beverage.lvclass"/>
-			</Item>
 			<Item Name="Work Dispatcher.lvclass" Type="LVClass" URL="../Work Dispatcher/Work Dispatcher.lvclass"/>
 			<Item Name="Coffee Shop.lvclass" Type="LVClass" URL="../Coffee Shop/Coffee Shop.lvclass"/>
+		</Item>
+		<Item Name="Support Classes" Type="Folder">
+			<Item Name="Order Item.lvclass" Type="LVClass" URL="../Support/Order/Order Item.lvclass"/>
+			<Item Name="Order.lvclass" Type="LVClass" URL="../Support/Order/Order.lvclass"/>
+			<Item Name="Beverage.lvclass" Type="LVClass" URL="../Support/Beverages/Beverage/Beverage.lvclass"/>
+		</Item>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Random Name Generator.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Random Name Generator.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Localization.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Localization.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Names.txt" Type="Document" URL="../Support/Utilities/Names.txt"/>
 		</Item>
 		<Item Name="Unit Tests" Type="Folder">
 			<Item Name="Work Dispatcher Test.lvclass" Type="LVClass" URL="../Work Dispatcher Test/Work Dispatcher Test.lvclass"/>
@@ -48,6 +49,8 @@
 			<Item Name="Coffee Shop Test.lvclass" Type="LVClass" URL="../Coffee Shop Test/Coffee Shop Test.lvclass"/>
 			<Item Name="Worker Test.lvclass" Type="LVClass" URL="../Worker Test/Worker Test.lvclass"/>
 			<Item Name="Mock Worker.lvclass" Type="LVClass" URL="../Mock Worker/Mock Worker.lvclass"/>
+			<Item Name="Mock Work Dispatcher.lvclass" Type="LVClass" URL="../Mock Work Dispatcher/Mock Work Dispatcher.lvclass"/>
+			<Item Name="Cashier Test.lvclass" Type="LVClass" URL="../Cashier Test/Cashier Test.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
