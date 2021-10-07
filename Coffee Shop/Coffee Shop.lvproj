@@ -49,10 +49,11 @@
 			<Item Name="Customer Test.lvclass" Type="LVClass" URL="../Customer Test/Customer Test.lvclass"/>
 			<Item Name="Coffee Shop Test.lvclass" Type="LVClass" URL="../Coffee Shop Test/Coffee Shop Test.lvclass"/>
 			<Item Name="Worker Test.lvclass" Type="LVClass" URL="../Worker Test/Worker Test.lvclass"/>
-			<Item Name="Mock Job Processor.lvclass" Type="LVClass" URL="../Mock Worker/Mock Job Processor.lvclass"/>
+			<Item Name="Mock Job Handler.lvclass" Type="LVClass" URL="../Mock Worker/Mock Job Handler.lvclass"/>
 			<Item Name="Stub Job Processor.lvclass" Type="LVClass" URL="../Stub Job Processor/Stub Job Processor.lvclass"/>
 			<Item Name="Cashier Test.lvclass" Type="LVClass" URL="../Cashier Test/Cashier Test.lvclass"/>
 			<Item Name="Stub Worker Handler.lvclass" Type="LVClass" URL="../Stub Worker Handler/Stub Worker Handler.lvclass"/>
+			<Item Name="Mock Worker Handler.lvclass" Type="LVClass" URL="../Mock Worker Handler/Mock Worker Handler.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
