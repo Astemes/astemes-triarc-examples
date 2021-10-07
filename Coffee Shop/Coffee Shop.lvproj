@@ -22,6 +22,7 @@
 					<Item Name="Worker.lvclass" Type="LVClass" URL="../Worker/Worker.lvclass"/>
 					<Item Name="Job Handler.lvclass" Type="LVClass" URL="../Process Job/Job Handler.lvclass"/>
 					<Item Name="Cashier.lvclass" Type="LVClass" URL="../Cashier/Cashier.lvclass"/>
+					<Item Name="Worker Handler.lvclass" Type="LVClass" URL="../Worker Handler/Worker Handler.lvclass"/>
 				</Item>
 				<Item Name="Person.lvclass" Type="LVClass" URL="../Person/Person.lvclass"/>
 			</Item>
@@ -51,6 +52,7 @@
 			<Item Name="Mock Job Processor.lvclass" Type="LVClass" URL="../Mock Worker/Mock Job Processor.lvclass"/>
 			<Item Name="Stub Job Processor.lvclass" Type="LVClass" URL="../Stub Job Processor/Stub Job Processor.lvclass"/>
 			<Item Name="Cashier Test.lvclass" Type="LVClass" URL="../Cashier Test/Cashier Test.lvclass"/>
+			<Item Name="Stub Worker Handler.lvclass" Type="LVClass" URL="../Stub Worker Handler/Stub Worker Handler.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

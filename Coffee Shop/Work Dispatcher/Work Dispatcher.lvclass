@@ -21,6 +21,7 @@
 		<Item Name="Job Handler.lvclass" Type="Parent" URL="../../Process Job/Job Handler.lvclass"/>
 		<Item Name="TF.lvlib:Helper Loop.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Helper Loop/Helper Loop.lvclass"/>
 		<Item Name="TF.lvlib:Process.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Process.lvclass"/>
+		<Item Name="Worker Handler.lvclass" Type="Parent" URL="../../Worker Handler/Worker Handler.lvclass"/>
 	</Item>
 	<Item Name="Work Dispatcher.ctl" Type="Class Private Data" URL="Work Dispatcher.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
