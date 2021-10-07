@@ -20,7 +20,7 @@
 				</Item>
 				<Item Name="Workers" Type="Folder">
 					<Item Name="Worker.lvclass" Type="LVClass" URL="../Worker/Worker.lvclass"/>
-					<Item Name="Process Job.lvclass" Type="LVClass" URL="../Process Job/Process Job.lvclass"/>
+					<Item Name="Job Handler.lvclass" Type="LVClass" URL="../Process Job/Job Handler.lvclass"/>
 					<Item Name="Cashier.lvclass" Type="LVClass" URL="../Cashier/Cashier.lvclass"/>
 				</Item>
 				<Item Name="Person.lvclass" Type="LVClass" URL="../Person/Person.lvclass"/>
@@ -48,8 +48,8 @@
 			<Item Name="Customer Test.lvclass" Type="LVClass" URL="../Customer Test/Customer Test.lvclass"/>
 			<Item Name="Coffee Shop Test.lvclass" Type="LVClass" URL="../Coffee Shop Test/Coffee Shop Test.lvclass"/>
 			<Item Name="Worker Test.lvclass" Type="LVClass" URL="../Worker Test/Worker Test.lvclass"/>
-			<Item Name="Mock Worker.lvclass" Type="LVClass" URL="../Mock Worker/Mock Worker.lvclass"/>
-			<Item Name="Mock Work Dispatcher.lvclass" Type="LVClass" URL="../Mock Work Dispatcher/Mock Work Dispatcher.lvclass"/>
+			<Item Name="Mock Job Processor.lvclass" Type="LVClass" URL="../Mock Worker/Mock Job Processor.lvclass"/>
+			<Item Name="Stub Job Processor.lvclass" Type="LVClass" URL="../Stub Job Processor/Stub Job Processor.lvclass"/>
 			<Item Name="Cashier Test.lvclass" Type="LVClass" URL="../Cashier Test/Cashier Test.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
