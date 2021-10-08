@@ -22,7 +22,6 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Job Dispatcher.lvclass" Type="Parent" URL="../../Worker Handler/Job Dispatcher.lvclass"/>
 		<Item Name="Job Handler.lvclass" Type="Parent" URL="../../Process Job/Job Handler.lvclass"/>
 		<Item Name="TF.lvlib:Helper Loop.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Helper Loop/Helper Loop.lvclass"/>
 		<Item Name="TF.lvlib:Process.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Process.lvclass"/>

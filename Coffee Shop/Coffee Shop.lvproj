@@ -22,7 +22,6 @@
 					<Item Name="Worker.lvclass" Type="LVClass" URL="../Worker/Worker.lvclass"/>
 					<Item Name="Barista.lvclass" Type="LVClass" URL="../Barista/Barista.lvclass"/>
 					<Item Name="Job Handler.lvclass" Type="LVClass" URL="../Process Job/Job Handler.lvclass"/>
-					<Item Name="Job Dispatcher.lvclass" Type="LVClass" URL="../Worker Handler/Job Dispatcher.lvclass"/>
 					<Item Name="Cashier.lvclass" Type="LVClass" URL="../Cashier/Cashier.lvclass"/>
 				</Item>
 				<Item Name="Person.lvclass" Type="LVClass" URL="../Person/Person.lvclass"/>
@@ -48,9 +47,7 @@
 			<Item Name="Test Doubles" Type="Folder">
 				<Item Name="Mock Job Handler.lvclass" Type="LVClass" URL="../Mock Worker/Mock Job Handler.lvclass"/>
 				<Item Name="Mock Pick Up Order.lvclass" Type="LVClass" URL="../Mock Pick Up Order/Mock Pick Up Order.lvclass"/>
-				<Item Name="Mock Job Dispatcher.lvclass" Type="LVClass" URL="../Mock Worker Handler/Mock Job Dispatcher.lvclass"/>
 				<Item Name="Stub Job Handler.lvclass" Type="LVClass" URL="../Stub Job Processor/Stub Job Handler.lvclass"/>
-				<Item Name="Stub Job Dispatcher.lvclass" Type="LVClass" URL="../Stub Worker Handler/Stub Job Dispatcher.lvclass"/>
 				<Item Name="Stub Pick Up Order.lvclass" Type="LVClass" URL="../Stub Pick Up Order/Stub Pick Up Order.lvclass"/>
 			</Item>
 			<Item Name="Work Dispatcher Test.lvclass" Type="LVClass" URL="../Work Dispatcher Test/Work Dispatcher Test.lvclass"/>
