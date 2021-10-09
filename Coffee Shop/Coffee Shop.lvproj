@@ -18,6 +18,7 @@
 			<Item Name="People" Type="Folder">
 				<Item Name="Customers" Type="Folder">
 					<Item Name="Customer.lvclass" Type="LVClass" URL="../Processes/People/Customers/Customer/Customer.lvclass"/>
+					<Item Name="Customer With Phone.lvclass" Type="LVClass" URL="../Processes/People/Customers/Customer With Phone/Customer With Phone.lvclass"/>
 				</Item>
 				<Item Name="Workers" Type="Folder">
 					<Item Name="Worker.lvclass" Type="LVClass" URL="../Processes/People/Workers/Worker/Worker.lvclass"/>
@@ -54,6 +55,7 @@
 			<Item Name="Barista Test.lvclass" Type="LVClass" URL="../Tests/Barista Test/Barista Test.lvclass"/>
 			<Item Name="Worker Test.lvclass" Type="LVClass" URL="../Tests/Worker Test/Worker Test.lvclass"/>
 			<Item Name="Cashier Test.lvclass" Type="LVClass" URL="../Tests/Cashier Test/Cashier Test.lvclass"/>
+			<Item Name="Customer With Phone Test.lvclass" Type="LVClass" URL="../Tests/Customer With Phone Test/Customer With Phone Test.lvclass"/>
 		</Item>
 		<Item Name="Main.lvclass" Type="LVClass" URL="../Main/Main.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
