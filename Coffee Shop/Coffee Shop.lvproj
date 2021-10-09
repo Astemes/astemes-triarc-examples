@@ -160,9 +160,6 @@
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
