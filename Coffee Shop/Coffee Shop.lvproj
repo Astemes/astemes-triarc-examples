@@ -17,49 +17,43 @@
 		<Item Name="Processes" Type="Folder">
 			<Item Name="People" Type="Folder">
 				<Item Name="Customers" Type="Folder">
-					<Item Name="Pick Up Order.lvclass" Type="LVClass" URL="../Pick Up Order/Pick Up Order.lvclass"/>
-					<Item Name="Customer.lvclass" Type="LVClass" URL="../Customer/Customer.lvclass"/>
+					<Item Name="Customer.lvclass" Type="LVClass" URL="../Processes/People/Customers/Customer/Customer.lvclass"/>
 				</Item>
 				<Item Name="Workers" Type="Folder">
-					<Item Name="Job Handler.lvclass" Type="LVClass" URL="../Process Job/Job Handler.lvclass"/>
-					<Item Name="Worker.lvclass" Type="LVClass" URL="../Worker/Worker.lvclass"/>
-					<Item Name="Barista.lvclass" Type="LVClass" URL="../Barista/Barista.lvclass"/>
-					<Item Name="Cashier.lvclass" Type="LVClass" URL="../Cashier/Cashier.lvclass"/>
+					<Item Name="Worker.lvclass" Type="LVClass" URL="../Processes/People/Workers/Worker/Worker.lvclass"/>
+					<Item Name="Barista.lvclass" Type="LVClass" URL="../Processes/People/Workers/Barista/Barista.lvclass"/>
+					<Item Name="Cashier.lvclass" Type="LVClass" URL="../Processes/People/Workers/Cashier/Cashier.lvclass"/>
 				</Item>
-				<Item Name="Person.lvclass" Type="LVClass" URL="../Person/Person.lvclass"/>
+				<Item Name="Person.lvclass" Type="LVClass" URL="../Processes/People/Person/Person.lvclass"/>
+				<Item Name="Job Handler.lvclass" Type="LVClass" URL="../Processes/People/Process Job/Job Handler.lvclass"/>
 			</Item>
-			<Item Name="Work Dispatcher.lvclass" Type="LVClass" URL="../Work Dispatcher/Work Dispatcher.lvclass"/>
-			<Item Name="Coffee Shop.lvclass" Type="LVClass" URL="../Coffee Shop/Coffee Shop.lvclass"/>
+			<Item Name="Work Dispatcher.lvclass" Type="LVClass" URL="../Processes/Work Dispatcher/Work Dispatcher.lvclass"/>
+			<Item Name="Coffee Shop.lvclass" Type="LVClass" URL="../Processes/Coffee Shop/Coffee Shop.lvclass"/>
 		</Item>
 		<Item Name="Support Classes" Type="Folder">
 			<Item Name="Order Item.lvclass" Type="LVClass" URL="../Support/Order Item/Order Item.lvclass"/>
 			<Item Name="Order.lvclass" Type="LVClass" URL="../Support/Order/Order.lvclass"/>
 			<Item Name="Beverage.lvclass" Type="LVClass" URL="../Support/Beverages/Beverage/Beverage.lvclass"/>
-			<Item Name="Log Indicator.lvclass" Type="LVClass" URL="../Log Indicator/Log Indicator.lvclass"/>
+			<Item Name="Log Indicator.lvclass" Type="LVClass" URL="../Support/Log Indicator/Log Indicator.lvclass"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
-			<Item Name="Random Name Generator.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Random Name Generator.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="Localization.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Design Patterns/Actor Framework/Utilities/Localization.vi">
+			<Item Name="Random Name Generator.vi" Type="VI" URL="../Support/Utilities/Random Name Generator.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 			<Item Name="Names.txt" Type="Document" URL="../Support/Utilities/Names.txt"/>
 		</Item>
 		<Item Name="Unit Tests" Type="Folder">
 			<Item Name="Test Doubles" Type="Folder">
-				<Item Name="Mock Job Handler.lvclass" Type="LVClass" URL="../Mock Worker/Mock Job Handler.lvclass"/>
-				<Item Name="Mock Pick Up Order.lvclass" Type="LVClass" URL="../Mock Pick Up Order/Mock Pick Up Order.lvclass"/>
-				<Item Name="Stub Job Handler.lvclass" Type="LVClass" URL="../Stub Job Processor/Stub Job Handler.lvclass"/>
-				<Item Name="Stub Pick Up Order.lvclass" Type="LVClass" URL="../Stub Pick Up Order/Stub Pick Up Order.lvclass"/>
+				<Item Name="Mock Job Handler.lvclass" Type="LVClass" URL="../Tests/Test Doubles/Mock Job Handler/Mock Job Handler.lvclass"/>
+				<Item Name="Stub Job Handler.lvclass" Type="LVClass" URL="../Tests/Test Doubles/Stub Job Handler/Stub Job Handler.lvclass"/>
 			</Item>
-			<Item Name="Work Dispatcher Test.lvclass" Type="LVClass" URL="../Work Dispatcher Test/Work Dispatcher Test.lvclass"/>
-			<Item Name="Person Test.lvclass" Type="LVClass" URL="../Person Test/Person Test.lvclass"/>
-			<Item Name="Customer Test.lvclass" Type="LVClass" URL="../Customer Test/Customer Test.lvclass"/>
-			<Item Name="Coffee Shop Test.lvclass" Type="LVClass" URL="../Coffee Shop Test/Coffee Shop Test.lvclass"/>
-			<Item Name="Barista Test.lvclass" Type="LVClass" URL="../Barista Test/Barista Test.lvclass"/>
-			<Item Name="Worker Test.lvclass" Type="LVClass" URL="../Worker Test/Worker Test.lvclass"/>
-			<Item Name="Cashier Test.lvclass" Type="LVClass" URL="../Cashier Test/Cashier Test.lvclass"/>
+			<Item Name="Work Dispatcher Test.lvclass" Type="LVClass" URL="../Tests/Work Dispatcher Test/Work Dispatcher Test.lvclass"/>
+			<Item Name="Person Test.lvclass" Type="LVClass" URL="../Tests/Person Test/Person Test.lvclass"/>
+			<Item Name="Customer Test.lvclass" Type="LVClass" URL="../Tests/Customer Test/Customer Test.lvclass"/>
+			<Item Name="Coffee Shop Test.lvclass" Type="LVClass" URL="../Tests/Coffee Shop Test/Coffee Shop Test.lvclass"/>
+			<Item Name="Barista Test.lvclass" Type="LVClass" URL="../Tests/Barista Test/Barista Test.lvclass"/>
+			<Item Name="Worker Test.lvclass" Type="LVClass" URL="../Tests/Worker Test/Worker Test.lvclass"/>
+			<Item Name="Cashier Test.lvclass" Type="LVClass" URL="../Tests/Cashier Test/Cashier Test.lvclass"/>
 		</Item>
 		<Item Name="Main.lvclass" Type="LVClass" URL="../Main/Main.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
