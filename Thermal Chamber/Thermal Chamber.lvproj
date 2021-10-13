@@ -209,6 +209,12 @@
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Leave Process Loop.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Community/Leave Process Loop.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
