@@ -25,7 +25,7 @@
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 		</Item>
-		<Item Name="Modules" Type="Folder">
+		<Item Name="Processes" Type="Folder">
 			<Item Name="Device Under Test.lvclass" Type="LVClass" URL="../Device Under Test/Device Under Test.lvclass"/>
 			<Item Name="Thermal Chamber Controller.lvclass" Type="LVClass" URL="../Thermal Chamber Controller/Thermal Chamber Controller.lvclass"/>
 			<Item Name="Thermal Chamber Response Simlator.lvclass" Type="LVClass" URL="../Thermal Chamber Response Simlator/Thermal Chamber Response Simlator.lvclass"/>
@@ -213,6 +213,16 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="Leave Process Loop.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Community/Leave Process Loop.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 			</Item>
