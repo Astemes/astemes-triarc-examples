@@ -22,7 +22,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="TFTS.lvlib:Process Test.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Asteme/Triarc Framework Test Suite/Process Test/Process Test.lvclass"/>
+		<Item Name="TFTS.lvlib:Process Test.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Astemes/Triarc Framework Test Suite/Process Test/Process Test.lvclass"/>
 	</Item>
 	<Item Name="Work Dispatcher Test.ctl" Type="Class Private Data" URL="Work Dispatcher Test.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

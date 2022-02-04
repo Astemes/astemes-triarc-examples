@@ -23,7 +23,7 @@
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="Job Handler.lvclass" Type="Parent" URL="../../../../Processes/People/Process Job/Job Handler.lvclass"/>
-		<Item Name="TF.lvlib:Base.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Base/Base.lvclass"/>
+		<Item Name="TF.lvlib:Base.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/Base/Base.lvclass"/>
 	</Item>
 	<Item Name="Mock Job Handler.ctl" Type="Class Private Data" URL="Mock Job Handler.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

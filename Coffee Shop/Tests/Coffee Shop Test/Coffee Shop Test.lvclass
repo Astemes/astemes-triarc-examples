@@ -23,7 +23,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="TFTS.lvlib:Application Test.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Asteme/Triarc Framework Test Suite/Application Test/Application Test.lvclass"/>
+		<Item Name="TFTS.lvlib:Application Test.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Astemes/Triarc Framework Test Suite/Application Test/Application Test.lvclass"/>
 	</Item>
 	<Item Name="Coffee Shop Test.ctl" Type="Class Private Data" URL="Coffee Shop Test.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

@@ -19,7 +19,7 @@
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="TF.lvlib:Logging.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Logging/Logging.lvclass"/>
+		<Item Name="TF.lvlib:Logging.lvclass" Type="Parent" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/Logging/Logging.lvclass"/>
 	</Item>
 	<Item Name="Log Indicator.ctl" Type="Class Private Data" URL="Log Indicator.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
