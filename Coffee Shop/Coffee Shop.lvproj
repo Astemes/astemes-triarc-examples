@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
-	<Property Name="CCSymbols" Type="Str">DEBUG,FALSE;</Property>
+	<Property Name="CCSymbols" Type="Str">,;DEBUG,TRUE</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -212,10 +212,80 @@
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="TFTS.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/Triarc Framework Test Suite/TFTS.lvlib"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
-				<Item Name="LUnit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit.lvlib"/>
-				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="Process.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Process.lvclass/Process.ctl"/>
+				<Item Name="Response Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Protected/Messaging/Response Message.vi"/>
+				<Item Name="Get Lifecycle State.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Public/Lifecycle/Get Lifecycle State.vi"/>
+				<Item Name="View.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/View/View.lvclass"/>
+				<Item Name="Request Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Protected/Messaging/Request Message.vi"/>
+				<Item Name="Enqueue Request Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Private/SubVIs/Enqueue Request Message.vi"/>
+				<Item Name="Wait for Response Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Private/SubVIs/Wait for Response Message.vi"/>
+				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Process.lvclass"/>
+				<Item Name="Leave Process Loop.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Public/Lifecycle/Leave Process Loop.vi"/>
+				<Item Name="Start Idle Processes if Running.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/Application/Private/Start Idle Processes if Running.vi"/>
+				<Item Name="Application.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Application/Application.lvclass/Application.ctl"/>
+				<Item Name="Add Process.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Application/Public/Add Process.vi"/>
+				<Item Name="Get Process.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Application/Public/Get Process.vi"/>
+				<Item Name="Add Process to Map.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Application/Private/Add Process to Map.vi"/>
+				<Item Name="Start Idle Processes if Running.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Application/Private/Start Idle Processes if Running.vi"/>
+				<Item Name="Enqueue Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Protected/Messaging/Enqueue Message.vi"/>
+				<Item Name="Set Context.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Protected/SubVIs/Set Context.vi"/>
+				<Item Name="Stop.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Stop.vi"/>
+				<Item Name="Wait for finish.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Private/SubVIs/Wait for finish.vi"/>
+				<Item Name="Set Lifecycle State.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Private/SubVIs/Set Lifecycle State.vi"/>
+				<Item Name="Application.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Application/Application.lvclass"/>
+				<Item Name="Start.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Start.vi"/>
+				<Item Name="Update Context for Owned Processes.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Application/Private/Update Context for Owned Processes.vi"/>
+				<Item Name="Base.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Base/Base.lvclass"/>
+				<Item Name="Base Test.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework Test Suite/Base Class Test/Base Test.lvclass/Base Test.ctl"/>
+				<Item Name="Write Base.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework Test Suite/Base Class Test/Protected/Accessors/Write Base.vi"/>
+				<Item Name="Test Case.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Test Case.lvclass/Test Case.ctl"/>
+				<Item Name="LUnit Assertion Result.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Assertion Result.lvclass/LUnit Assertion Result.ctl"/>
+				<Item Name="Dequeue Broadcast Message by Message Data.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Broadcast Event Helpers/Dequeue Broadcast Message by Message Data.vi"/>
+				<Item Name="Fail If.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail If.vi"/>
+				<Item Name="Execution timer.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Broadcast Event Helpers/Execution timer.vi"/>
+				<Item Name="Pass If.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If.vi"/>
+				<Item Name="Set Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Set Assertion Type.vi"/>
+				<Item Name="Fail.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail.vi"/>
+				<Item Name="Pass.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass.vi"/>
+				<Item Name="LUnit Write Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Assertion Type.vi"/>
+				<Item Name="Add test result.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Add test result.vi"/>
+				<Item Name="LUnit Write Passed.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Passed.vi"/>
+				<Item Name="LUnit Get Test Case.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Get Test Case.vi"/>
+				<Item Name="LUnit Get Test Name.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Assertion Result/LUnit Get Test Name.vi"/>
+				<Item Name="LUnit Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Message.vi"/>
+				<Item Name="LUnit Write Description.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Description.vi"/>
+				<Item Name="Read Test Case Name.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Read Test Case Name.vi"/>
+				<Item Name="Register for Broadcast Events.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Public/Broadcasting/Register for Broadcast Events.vi"/>
+				<Item Name="Dequeue Broadcast Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Broadcast Event Helpers/Dequeue Broadcast Message.vi"/>
+				<Item Name="LUnit Assertion Result.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Assertion Result.lvclass"/>
+				<Item Name="Read Base.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework Test Suite/Base Class Test/Protected/Accessors/Read Base.vi"/>
+				<Item Name="Dequeue Broadcast Message by Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Broadcast Event Helpers/Dequeue Broadcast Message by Message.vi"/>
+				<Item Name="Fail If Equal.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail If Equal.vi"/>
+				<Item Name="Skip.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Skip.vi"/>
+				<Item Name="Variant to string.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Variant to string.vi"/>
+				<Item Name="LUnit Write Skipped.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/LUnit Write Skipped.vi"/>
+				<Item Name="Trigger Broadcast.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Public/Broadcasting/Trigger Broadcast.vi"/>
+				<Item Name="Lifecycle State.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Public/Lifecycle/Lifecycle State.ctl"/>
+				<Item Name="Wait for Life Cycle State.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Public/Lifecycle/Wait for Life Cycle State.vi"/>
+				<Item Name="Pass If Equal.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If Equal.vi"/>
+				<Item Name="Pass If Error.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Pass If Error.vi"/>
+				<Item Name="Execution timer.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework Test Suite/Support/Execution timer.vi"/>
+				<Item Name="Dequeue Event Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework Test Suite/Support/Event Helpers/Dequeue Event Message.vi"/>
+				<Item Name="Mock Error Handler.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/Triarc Framework Test Suite/Mock Error Handler/Mock Error Handler.lvclass"/>
+				<Item Name="Set Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Public/Set Error Handler.vi"/>
+				<Item Name="Fail If Error.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/LUnit/Palette/Fail If Error.vi"/>
+				<Item Name="Spy Flush Last Error.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework Test Suite/Mock Error Handler/Public/API/Spy Flush Last Error.vi"/>
+				<Item Name="Launch Helper Loop.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Helper Loop/Protected/Launch Helper Loop.vi"/>
+				<Item Name="View.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/View/View.lvclass/View.ctl"/>
+				<Item Name="Shutdown Process.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Application/Public/Shutdown Process.vi"/>
+				<Item Name="Show Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/View/Public/Show Panel.vi"/>
+				<Item Name="Get View VI Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/View/Public/Get View VI Reference.vi"/>
+				<Item Name="Hide Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/View/Public/Hide Panel.vi"/>
+				<Item Name="Launch Async Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Async Handler/Protected/Launch Async Handler.vi"/>
+				<Item Name="Register for Broadcasting Events Recursively.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Application/Public/Broadcasting/Register for Broadcasting Events Recursively.vi"/>
+				<Item Name="Add Log Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Public/Add Log Handler.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
