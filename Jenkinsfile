@@ -1,19 +1,21 @@
 pipeline {
-	agent any
+	agent {
+        label 'LV2020'
+    }
 	environment{
-		PROJECT_TITLE = "NAME OF PROJECT"
+		PROJECT_TITLE = "Astemes Triarc Examples"
 		REPO_URL = "https://github.com/astemes/astemes-triarc-examples"
 		AUTHOR = "Anton Sundqvist"
-		INITIAL_RELEASE = 2022
+		INITIAL_RELEASE = 2021
 		THERMAL_CHAMBER = "Thermal Chamber\\Thermal Chamber.lvproj"
 		COFFEE_SHOP_PROJECT = "Coffee Shop\\Coffee Shop.lvproj"
-		LV_BUILD_SPEC = "Build Specification"
-		COMMIT_TAG = "${bat(returnStdout: true, script: '@git fetch & git tag --contains').trim()}"
+		LV_VIPB_PATH = "Triarc Examples.vipb"
 	}
 	stages {
 		stage('Initialize') {
 			steps {
 				library 'astemes-build-support'
+				script{COMMIT_TAG = gitTag()}
 				initWorkspace()
 				dir("build_support"){
 					pullBuildSupport()
@@ -26,8 +28,23 @@ pipeline {
 				runLUnit "${THERMAL_CHAMBER}"
 				junit testResults: "reports\\*.xml", allowEmptyResults: true
 				runLUnit "${COFFEE_SHOP_PROJECT}"
-				// Empty results set to true for the template to pass build
 				junit testResults: "reports\\*.xml", allowEmptyResults: true
+				// Empty results set to true for the template to pass build
+			}
+		}
+		stage('Deploy') {
+			when{
+				expression{
+					!COMMIT_TAG.isEmpty()
+				}
+			}
+			environment{
+				GITHUB_TOKEN = credentials('github-token')
+			}
+			steps{
+				//Build VIPM package
+				script{VIP_FILE_PATH = buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}"}
+				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${VIP_FILE_PATH}"
 			}
 		}
 	}	
