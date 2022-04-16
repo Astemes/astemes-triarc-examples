@@ -7,9 +7,9 @@ pipeline {
 		REPO_URL = "https://github.com/astemes/astemes-triarc-examples"
 		AUTHOR = "Anton Sundqvist"
 		INITIAL_RELEASE = 2021
-		THERMAL_CHAMBER = "Thermal Chamber\\Thermal Chamber.lvproj"
-		COFFEE_SHOP_PROJECT = "Coffee Shop\\Coffee Shop.lvproj"
-		LV_VIPB_PATH = "Triarc Examples.vipb"
+		THERMAL_CHAMBER = "source\\Thermal Chamber\\Thermal Chamber.lvproj"
+		COFFEE_SHOP_PROJECT = "source\\Coffee Shop\\Coffee Shop.lvproj"
+		LV_VIPB_PATH = "source\\Triarc Examples.vipb"
 		LV_VERSION = "20.0"
 	}
 	stages {
