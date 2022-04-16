@@ -10,6 +10,7 @@ pipeline {
 		THERMAL_CHAMBER = "Thermal Chamber\\Thermal Chamber.lvproj"
 		COFFEE_SHOP_PROJECT = "Coffee Shop\\Coffee Shop.lvproj"
 		LV_VIPB_PATH = "Triarc Examples.vipb"
+		LV_VERSION = "20.0"
 	}
 	stages {
 		stage('Initialize') {
