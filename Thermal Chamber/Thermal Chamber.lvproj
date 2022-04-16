@@ -31,9 +31,9 @@
 			<Item Name="Thermal Chamber Response Simlator.lvclass" Type="LVClass" URL="../Thermal Chamber Response Simlator/Thermal Chamber Response Simlator.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Device Under Test Test.lvclass" Type="LVClass" URL="../Device Under Test Test/Device Under Test Test.lvclass"/>
-			<Item Name="Thermal Chamber Controller Test.lvclass" Type="LVClass" URL="../Thermal Chamber Controller Test/Thermal Chamber Controller Test.lvclass"/>
-			<Item Name="Thermal Chamber Response Simlator Test.lvclass" Type="LVClass" URL="../Thermal Chamber Response Simlator Test/Thermal Chamber Response Simlator Test.lvclass"/>
+			<Item Name="Device Under Test Test.lvclass" Type="LVClass" URL="../Tests/Device Under Test Test/Device Under Test Test.lvclass"/>
+			<Item Name="Thermal Chamber Controller Test.lvclass" Type="LVClass" URL="../Tests/Thermal Chamber Controller Test/Thermal Chamber Controller Test.lvclass"/>
+			<Item Name="Thermal Chamber Response Simlator Test.lvclass" Type="LVClass" URL="../Tests/Thermal Chamber Response Simlator Test/Thermal Chamber Response Simlator Test.lvclass"/>
 		</Item>
 		<Item Name="Thermal Chamber Controller.vi" Type="VI" URL="../Thermal Chamber Controller.vi">
 			<Property Name="marked" Type="Int">0</Property>
@@ -170,9 +170,8 @@
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="TFTS.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/Triarc Framework Test Suite/TFTS.lvlib"/>
-				<Item Name="LUnit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit.lvlib"/>
-				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="Start Idle Processes if Running.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/Application/Private/Start Idle Processes if Running.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
