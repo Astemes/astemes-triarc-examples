@@ -214,6 +214,28 @@
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="Process.ctl" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Process.lvclass/Process.ctl"/>
+				<Item Name="Leave Process Loop.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Public/Lifecycle/Leave Process Loop.vi"/>
+				<Item Name="Broadcast Event Dequeuers.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/Support/Broadcast Event Dequeuers.lvlib"/>
+				<Item Name="Start Idle Processes if Running.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/Application/Private/Start Idle Processes if Running.vi"/>
+				<Item Name="Enqueue Request Message.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/Triarc Framework/Process/Private/SubVIs/Enqueue Request Message.vi"/>
+				<Item Name="Base.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Base/Base.lvclass"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
+				<Item Name="Set Assertion Type.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Set Assertion Type.vi"/>
+				<Item Name="Add test result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Add test result.vi"/>
+				<Item Name="LUnit Record Assertion Result.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Record Assertion Result.vi"/>
+				<Item Name="LUnit Aggregate Assertion Results.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Aggregate Assertion Results.vi"/>
+				<Item Name="LUnit Merge Status.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/Method Result/LUnit Merge Status.vi"/>
+				<Item Name="LUnit Concatenate result strings.vi" Type="VI" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Concatenate result strings.vi"/>
+				<Item Name="Get Lifecycle State.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Public/Lifecycle/Get Lifecycle State.vi"/>
+				<Item Name="Request Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Protected/Messaging/Request Message.vi"/>
+				<Item Name="Enqueue Request Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Private/SubVIs/Enqueue Request Message.vi"/>
+				<Item Name="Wait for Response Message.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Private/SubVIs/Wait for Response Message.vi"/>
+				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Process/Process.lvclass"/>
+				<Item Name="Hide Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/View/Public/Hide Panel.vi"/>
+				<Item Name="Launch Async Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Async Handler/Protected/Launch Async Handler.vi"/>
+				<Item Name="Launch Helper Loop.vi" Type="VI" URL="/&lt;vilib&gt;/Asteme/Triarc Framework/Helper Loop/Protected/Launch Helper Loop.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
