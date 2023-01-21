@@ -45,6 +45,7 @@ pipeline {
 			}
 			steps{
 				//Build VIPM package
+				massCompileLV()
 				script{VIP_FILE_PATH = buildVIPackage "${LV_VIPB_PATH}", "${LV_VERSION}", "${COMMIT_TAG}"}
 				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${VIP_FILE_PATH}"
 			}
